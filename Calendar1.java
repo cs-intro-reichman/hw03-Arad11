@@ -6,7 +6,7 @@ public class Calendar1 {
 	static int dayOfMonth = 1;   
 	static int month = 1;
 	static int year = 1900;
-	static int dayOfWeek = 29;     // 1.1.1900 was a Monday
+	static int dayOfWeek = 2;     // 1.1.1900 was a Monday
 	static int nDaysInMonth = 31; // Number of days in January
 	
 	/** 
