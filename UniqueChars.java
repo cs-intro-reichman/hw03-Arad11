@@ -16,14 +16,14 @@ public class UniqueChars {
         char ch;
         int doesCharExistsNewStr;
         
-        
-        for (int i = 0; i< oldStr.length() - 1; i++) {
+        for (int i = 0; i < oldStr.length(); i++) {
             ch = oldStr.charAt(i);
             doesCharExistsNewStr = newStr.indexOf(ch);
             if (doesCharExistsNewStr < 0 || ch == ' ') {
                 newStr += ch;
             }
         }
+        
         return newStr;
     }
 
